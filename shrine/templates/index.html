@@ -19,16 +19,30 @@
       <div class="row m-4">
          <div class="col-sm-6">
             <h1>Welcome to Shrine.ooo!</h1>
-            name = {{name}}
-            <p>This is some text</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h5>ICP inflation/deflation tracker</h5>
+            <p>ICP price is goverened by supply and demand. We keep track of supply.</p>
+            <h5>ICP Tokenomics</h5>
+            <p>ICP can be <span style="color:green;"">created</span> by: 
+               <ul style="background-color: rgb(212, 246, 212);">
+                  <li>Node Provider Rewards</li>
+                  <li>Governance Rewards</li>
+               </ul>
+               And ICP can be <span style="color:red;">destroyed</span> by:
+               <ul style="background-color: rgb(250, 219, 219)">
+                  <li>Converting to Cycles</li>
+                  <li>Transaction Fees</li>
+               </ul>
+            </p>
+            <p>ICP Tokenomics:
+               <a href="https://wiki.internetcomputer.org/wiki/Total_supply,_circulating_supply,_and_staked_ICP">wiki.internetcomputer.org</a>
+            </p>
          </div>
          <div class="col-sm-6">
             <img class="img-fluid w-75 mx-auto d-block" src="{{ url_for('static', filename='img/shrine.ooo.render.640x640.png') }}">
          </div>
       </div>
    </div>
-   <div class="container">
+   <div class="container p-3">
       <div class="row">
          <div class="col shadow m-2 rounded">
             <h2>Here is a basic plot</h2>
